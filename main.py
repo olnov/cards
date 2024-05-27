@@ -33,11 +33,6 @@ def main():
     player_label=Label(player_frame,text="")
     player_label.pack(pady=20)
 
-    #Number of cards in the deck
-    # start_game_text=Text(root, height=5, width=52)
-    # start_game_label=Label(root, text=f"Cards in the deck: {len(card_deck.shuffle(dealer_label,player_label))}",font=("Tahoma",14),background="green")
-    # start_game_label.pack()
-
     #Counting scores
     score_text=Text(root,height=5, width=22)
     score_text=Label(root, text=f"Dealer - 0 : 0 - Player", background="green")
