@@ -90,8 +90,10 @@ class cardDeck:
         except:
             if self.dealer_score>self.player_score:
                 print (f" The winner is Dealer")
+                score_text.configure(text=f"Dealer wins!")
             else:
                 print(f"The winner is Player")
+                score_text.configure(text=f"Player wins!")
             print(f"No more cards in the deck")
         return self.dealer_score, self.player_score
      

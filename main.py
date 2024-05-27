@@ -5,7 +5,7 @@ def main():
     root = Tk()
     card_deck=cardDeck()
     card_deck.load_images()
-    root.title("Card rubmle")
+    root.title("Rumbler of cards")
     root.geometry("900x500")
     root.configure(background="green")
 
